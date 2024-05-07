@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <h1>hello</h1>
+    <div>
+        <br />
+        <h1 style="text-align:center;"></h1>
+        <br />
+    </div>
+    <ul class="flex-container">
+        <li>
+            <video controls autoplay muted>
+                <source src="./mp4/vid1.mp4" type="video/mp4" />
+            </video>
+        </li>
+        <li>
+            <video controls autoplay muted>
+                <source src="./mp4/vid2.mp4" type="video/mp4" />
+            </video>
+        </li>
+        <li>
+            <video controls autoplay muted>
+                <source src="./mp4/vid3.mp4" type="video/mp4" />
+            </video>
+        </li>
+        <li>
+            <video controls autoplay muted>
+                <source src="./mp4/vid4.mp4" type="video/mp4" />
+            </video>
+        </li>
+
+    </ul>
 </body>
 </html>
+<script>
+    document.getElementById('vid').play();
+</script>

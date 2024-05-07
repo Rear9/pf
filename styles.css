@@ -1,0 +1,18 @@
+html {background-color:black;}
+
+ul {
+    display:flex;
+    margin-right:50px;
+    justify-content:space-evenly;
+    list-style:none;
+}
+li {
+    height: 40vh;
+    flex-grow:1;
+}
+video {
+    max-height:100%;
+    min-width:100%;
+    object-fit:cover;
+    vertical-align:top;
+}
