@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\mp4"
+    "\\html",
+    "\\js",
+    "\\media"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\html\\index.html",
   "PreviewInSolutionExplorer": false
 }
