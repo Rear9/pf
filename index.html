@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TestDevSite</title>
-    <link rel="icon" type="image/x-icon" href="../media/logo.png" />;
+    <link rel="icon" type="image/x-icon" href="logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../js/script.js"></script>
+    <link rel="stylesheet" href="css/mainstyles.css" />
 </head>
 
 <body>
+    <div class="sidebar-left"></div>
+    <div class="sidebar-right"></div>
+
     <!--navbar-->
     <section class="navbar">
         <div class="navbar-top">
             <div class="navlink-left">
-                <span class="navbutton"><a href="index.html">Home</a></span>
+                <span class="navbutton">
+                    <a href="index.html">Home</a>
+                </span>
             </div>
             <div class="droplink1">
-                <p style="position:fixed;">Projects</p>
-                <span class="submenu1">
+                <p style="position:fixed; padding-top:2px;">Projects</p>
+                <div class="submenu1">
                     <div class="subbutton">
-                        <p>WIP</p>
+                        <a href="html/projects/overlimit.html">Overlimit</a>
                         <p>WIP</p>
                         <p>WIP</p>
                         <p>WIP</p>
                         <p>WIP</p>
                     </div>
-                </span>
+                </div>
             </div>
             <div class="droplink2">
-                <p style="position:fixed;">Showcases</p>
-                <span class="submenu2">
+                <p style="position:fixed; padding-top:2px;">Showcases</p>
+                <div class="submenu2">
                     <div class="subbutton">
-                        <p>WIP</p>
-                        <p>WIP</p>
-                        <p>WIP</p>
-                        <p>WIP</p>
-                        <p>WIP</p>
+                        <a href="html/showcases/vfx.html">VFX</a>
+                        <a href="html/showcases/programs.html">Programs</a>
+                        <a href="html/showcases/models.html">Models</a>
+                        <a href="html/showcases/levels.html">Levels</a>
+                        <a href="html/showcases/audio.html">Audio</a>
                     </div>
-                </span>
+                </div>
             </div>
             <div class="navlink-right">
-                <div class="navbutton"><a href="html/contact.html">Contact me</a></div>
+                <div class="navbutton">
+                    <a href="html/contact.html">Contact me</a>
+                </div>
             </div>
         </div>
     </section>
     <!--cosmetics-->
     <section>
-        <div class="sidebar-left"></div>
-        <div class="sidebar-right"></div>
         <div class="custom-shape-divider-top-1715390022">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
@@ -91,5 +94,7 @@
 
         </ul>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
     "\\html",
-    "\\js",
-    "\\media"
+    "\\html\\projects",
+    "\\html\\showcases",
+    "\\js"
   ],
-  "SelectedNode": "\\html\\index.html",
+  "SelectedNode": "\\css\\mainstyles.css",
   "PreviewInSolutionExplorer": false
 }
